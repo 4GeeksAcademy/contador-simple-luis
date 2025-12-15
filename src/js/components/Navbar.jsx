@@ -18,9 +18,7 @@ export const Navbar = () => {
                 <li className="nav-item">
                     <a className="nav-link disabled" aria-disabled="true">Services</a>
                 </li>
-            </ul>
-            
-            
+            </ul>                      
         </div>
     </div>
 </nav>

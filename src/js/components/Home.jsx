@@ -14,7 +14,6 @@ const Home = () => {
 			<Jumbotron></Jumbotron>
 			<Card></Card>
             <Footer></Footer>
-
 		</>
 	);
 };
