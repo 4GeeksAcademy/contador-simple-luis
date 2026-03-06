@@ -1,0 +1,54 @@
+.wrapper {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.col-3 {
+  width: 250px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+
+.photo {
+  height: 160px;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.photo-feed {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+
+.footer {
+  margin-top: auto;
+}
+
+button {
+  padding: 8px 12px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
