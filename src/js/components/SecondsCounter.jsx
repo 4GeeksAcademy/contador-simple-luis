@@ -1,7 +1,7 @@
 import React from "react";
 
 const SecondsCounter = (props) => {
-
+    // Lógica para separar el número en dígitos individuales
     const unit = Math.floor(props.seconds / 1) % 10;
     const ten = Math.floor(props.seconds / 10) % 10;
     const hundred = Math.floor(props.seconds / 100) % 10;
