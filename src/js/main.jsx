@@ -11,8 +11,21 @@ import '../styles/index.css'
 // components
 import Home from './components/Home';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Home/>
-  </React.StrictMode>,
-)
+const root = ReactDOM.createRoot(document.getElementById('root'));
+let seconds = 0;
+
+window.updateCounter = () => {
+    const input = document.getElementById("userNumber");
+    seconds = parseInt(input.value) || 0;
+};
+
+setInterval(() => {
+    root.render(
+        <React.StrictMode>
+            <Home seconds={seconds} />
+        </React.StrictMode>
+    );
+    seconds++;
+}, 1000);
+
+
